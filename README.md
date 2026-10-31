@@ -6,13 +6,13 @@ This public repository provides **default contribution guidelines for repositori
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) — branching, pull requests, CI, releases, security, and AI-assisted contributions.
 
-GitHub automatically offers these guidelines for **public and private repositories** owned by this account that do not have their own \`CONTRIBUTING.md\`. An individual repository's own contribution guidelines take precedence.
+GitHub automatically offers these guidelines for **public and private repositories** owned by this account that do not have their own `CONTRIBUTING.md`. An individual repository's own contribution guidelines take precedence.
 
-The README itself is informational: **GitHub uses \`CONTRIBUTING.md\`, not this README, as the default contribution policy.**
+The README itself is informational: **GitHub uses `CONTRIBUTING.md`, not this README, as the default contribution policy.**
 
 ## How to contribute
 
-The usual route is a task-specific branch → pull request to \`develop\` → a release-ready pull request from \`develop\` to \`main\`. Smaller repositories may omit \`develop\`. Always check repository-specific instructions.
+The usual route is a task-specific branch → pull request to `develop` → a release-ready pull request from `develop` to `main`. Smaller repositories may omit `develop`. Always check repository-specific instructions.
 
 ## Enforcement and scope
 
