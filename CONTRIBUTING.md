@@ -4,12 +4,12 @@
 
 ## Branches and pull requests
 
-1. **Never push directly to \`main\` or \`master\`.** Changes must enter through a pull request (PR), including changes made by the owner.
-2. Ordinarily, work in a short-lived \`feature/*\`, \`fix/*\`, \`experiment/*\`, or similar task-specific branch and open a PR into \`develop\`.
-3. Only the owner or explicitly authorized maintainers may push directly to \`develop\`. All other contributors use PRs.
-4. The owner promotes release-ready changes through a PR from \`develop\` to \`main\` / \`master\`.
-5. Where a repository has no \`develop\` branch, submit a feature-branch PR directly into \`main\` / \`master\`.
-6. Emergency fixes may target the stable branch through a \`hotfix/*\` PR. Integrate the fix back into \`develop\` when applicable.
+1. **Never push directly to `main` or `master`.** Changes must enter through a pull request (PR), including changes made by the owner.
+2. Ordinarily, work in a short-lived `feature/*`, `fix/*`, `experiment/*`, or similar task-specific branch and open a PR into `develop`.
+3. Only the owner or explicitly authorized maintainers may push directly to `develop`. All other contributors use PRs.
+4. The owner promotes release-ready changes through a PR from `develop` to `main` / `master`.
+5. Where a repository has no `develop` branch, submit a feature-branch PR directly into `main` / `master`.
+6. Emergency fixes may target the stable branch through a `hotfix/*` PR. Integrate the fix back into `develop` when applicable.
 7. Do not force-push or delete shared branches without express permission. Never force-push or delete the stable branch.
 
 ## Quality and reviews
@@ -22,7 +22,7 @@
 
 ## Releases and automation
 
-1. Treat \`main\` / \`master\` as stable and release-ready.
+1. Treat `main` / `master` as stable and release-ready.
 2. Where configured, a merge into the stable branch can trigger an automatic versioned release **only after successful final validation**.
 3. Follow the repository-specific versioning and deployment procedure; do not publish or deploy independently without authorization.
 4. Do not add paid services, expensive scheduled jobs, or other resource-intensive automation without the owner's approval.
